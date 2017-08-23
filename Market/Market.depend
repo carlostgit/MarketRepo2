@@ -103,3 +103,20 @@
 	<vector>
 	<iostream>
 
+1297505290 d:\proyectomarket\marketrepo2\marketrepo2\externallibraries\sdk\koolplot\include\koolplot.h
+	"Plotstream.h"
+
+1120726162 d:\proyectomarket\marketrepo2\marketrepo2\externallibraries\sdk\koolplot\include\plotstream.h
+	<graphics.h>
+	"PlotData.h"
+
+1266094214 d:\proyectomarket\marketrepo2\marketrepo2\externallibraries\sdk\winbgim\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1266525576 d:\proyectomarket\marketrepo2\marketrepo2\externallibraries\sdk\koolplot\include\plotdata.h
+	<cmath>
+	<vector>
+	<iostream>
+
