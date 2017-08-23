@@ -14,17 +14,17 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\boost\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\dx\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\fltk\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\glut\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\grx\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\koolplot\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\sdl\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\sqlite\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\tinyxml\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\winbgim\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\wx\include" />
+					<Add directory="libraries\sdk\boost\include" />
+					<Add directory="libraries\sdk\dx\include" />
+					<Add directory="libraries\sdk\fltk\include" />
+					<Add directory="libraries\sdk\glut\include" />
+					<Add directory="libraries\sdk\grx\include" />
+					<Add directory="libraries\sdk\koolplot\include" />
+					<Add directory="libraries\sdk\sdl\include" />
+					<Add directory="libraries\sdk\sqlite\include" />
+					<Add directory="libraries\sdk\tinyxml\include" />
+					<Add directory="libraries\sdk\winbgim\include" />
+					<Add directory="libraries\sdk\wx\include" />
 				</Compiler>
 				<Linker>
 					<Add library="libkoolplot" />
@@ -34,17 +34,17 @@
 					<Add library="uuid" />
 					<Add library="oleaut32" />
 					<Add library="ole32" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\boost\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\dx\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\fltk\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\glut\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\grx\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\koolplot\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\sdl\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\sqlite\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\tinyxml\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\winbgim\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\wx\lib" />
+					<Add directory="libraries\sdk\boost\lib" />
+					<Add directory="libraries\sdk\dx\lib" />
+					<Add directory="libraries\sdk\fltk\lib" />
+					<Add directory="libraries\sdk\glut\lib" />
+					<Add directory="libraries\sdk\grx\lib" />
+					<Add directory="libraries\sdk\koolplot\lib" />
+					<Add directory="libraries\sdk\sdl\lib" />
+					<Add directory="libraries\sdk\sqlite\lib" />
+					<Add directory="libraries\sdk\tinyxml\lib" />
+					<Add directory="libraries\sdk\winbgim\lib" />
+					<Add directory="libraries\sdk\wx\lib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -55,17 +55,17 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\boost\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\dx\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\fltk\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\glut\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\grx\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\koolplot\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\sdl\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\sqlite\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\tinyxml\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\winbgim\include" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\wx\include" />
+					<Add directory="libraries\sdk\boost\include" />
+					<Add directory="libraries\sdk\dx\include" />
+					<Add directory="libraries\sdk\fltk\include" />
+					<Add directory="libraries\sdk\glut\include" />
+					<Add directory="libraries\sdk\grx\include" />
+					<Add directory="libraries\sdk\koolplot\include" />
+					<Add directory="libraries\sdk\sdl\include" />
+					<Add directory="libraries\sdk\sqlite\include" />
+					<Add directory="libraries\sdk\tinyxml\include" />
+					<Add directory="libraries\sdk\winbgim\include" />
+					<Add directory="libraries\sdk\wx\include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -76,17 +76,17 @@
 					<Add library="uuid" />
 					<Add library="oleaut32" />
 					<Add library="ole32" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\boost\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\dx\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\fltk\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\glut\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\grx\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\koolplot\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\sdl\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\sqlite\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\tinyxml\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\winbgim\lib" />
-					<Add directory="..\..\..\CodeBlocks-EP\sdk\wx\lib" />
+					<Add directory="libraries\sdk\boost\lib" />
+					<Add directory="libraries\sdk\dx\lib" />
+					<Add directory="libraries\sdk\fltk\lib" />
+					<Add directory="libraries\sdk\glut\lib" />
+					<Add directory="libraries\sdk\grx\lib" />
+					<Add directory="libraries\sdk\koolplot\lib" />
+					<Add directory="libraries\sdk\sdl\lib" />
+					<Add directory="libraries\sdk\sqlite\lib" />
+					<Add directory="libraries\sdk\tinyxml\lib" />
+					<Add directory="libraries\sdk\winbgim\lib" />
+					<Add directory="libraries\sdk\wx\lib" />
 				</Linker>
 			</Target>
 		</Build>

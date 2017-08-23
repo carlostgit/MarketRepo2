@@ -3,7 +3,7 @@
 #include "Market.h"
 #include "Factory.h"
 
-//#include "koolplot.h"
+#include "koolplot.h"
 #include "graphics.h"
 
 using namespace std;

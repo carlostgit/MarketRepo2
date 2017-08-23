@@ -1,5 +1,10 @@
 # depslib dependency file v1.0
-1475382256 source:d:\codeblocks\proyectos\market\src\factory.cpp
+1483567668 source:d:\proyectomarket\marketrepo2\marketrepo2\market\src\consumer.cpp
+	"Consumer.h"
+
+1491081110 d:\proyectomarket\marketrepo2\marketrepo2\market\include\consumer.h
+
+1475382256 source:d:\proyectomarket\marketrepo2\marketrepo2\market\src\factory.cpp
 	"Factory.h"
 	"Market.h"
 	"Scene.h"
@@ -7,30 +12,32 @@
 	<iostream>
 	<sstream>
 
-1475382084 d:\codeblocks\proyectos\market\include\factory.h
+1475382084 d:\proyectomarket\marketrepo2\marketrepo2\market\include\factory.h
 	<vector>
 	"Defines.h"
 	"Owner.h"
 	<fstream>
 
-1474825882 d:\codeblocks\proyectos\market\include\defines.h
+1474825882 d:\proyectomarket\marketrepo2\marketrepo2\market\include\defines.h
 	<string>
 
-1494699576 d:\codeblocks\proyectos\market\include\owner.h
+1494699576 d:\proyectomarket\marketrepo2\marketrepo2\market\include\owner.h
 	"Defines.h"
 	<vector>
 	<string>
 
-1494698494 d:\codeblocks\proyectos\market\include\market.h
+1495305058 d:\proyectomarket\marketrepo2\marketrepo2\market\include\market.h
 	<vector>
 	"Defines.h"
 	"Owner.h"
+	<iostream>
+	<fstream>
 
-1482428360 d:\codeblocks\proyectos\market\include\scene.h
+1482428360 d:\proyectomarket\marketrepo2\marketrepo2\market\include\scene.h
 	"Defines.h"
 	<vector>
 
-1482428752 source:d:\codeblocks\proyectos\market\src\market.cpp
+1497311010 source:d:\proyectomarket\marketrepo2\marketrepo2\market\src\market.cpp
 	"Market.h"
 	"Scene.h"
 	<iostream>
@@ -39,14 +46,14 @@
 	<math.h>
 	<sstream>
 
-1482515892 source:d:\codeblocks\proyectos\market\src\owner.cpp
+1482515892 source:d:\proyectomarket\marketrepo2\marketrepo2\market\src\owner.cpp
 	"Owner.h"
 	"Market.h"
 	<assert.h>
 	<sstream>
 	<math.h>
 
-1475433000 source:d:\codeblocks\proyectos\market\src\person.cpp
+1475433000 source:d:\proyectomarket\marketrepo2\marketrepo2\market\src\person.cpp
 	"Person.h"
 	"Factory.h"
 	"Market.h"
@@ -57,132 +64,42 @@
 	<assert.h>
 	<cstdlib>
 
-1475423660 d:\codeblocks\proyectos\market\include\person.h
+1475423660 d:\proyectomarket\marketrepo2\marketrepo2\market\include\person.h
 	"Defines.h"
 	"Owner.h"
 	<vector>
 	<iostream>
 	<fstream>
 
-1482516164 source:d:\codeblocks\proyectos\market\src\scene.cpp
+1495305896 source:d:\proyectomarket\marketrepo2\marketrepo2\market\src\scene.cpp
 	"Scene.h"
 	"Market.h"
 	"Factory.h"
 	"Person.h"
 	<iostream>
 
-1494696414 source:d:\codeblocks\proyectos\market\main.cpp
+1503461050 source:d:\proyectomarket\marketrepo2\marketrepo2\market\main.cpp
 	<iostream>
 	"Scene.h"
 	"Market.h"
 	"Factory.h"
+	"koolplot.h"
 	"graphics.h"
 
-1297505290 d:\codeblocks-ep\sdk\koolplot\include\koolplot.h
+1297505290 d:\proyectomarket\marketrepo2\marketrepo2\market\libraries\sdk\koolplot\include\koolplot.h
 	"Plotstream.h"
 
-1120726162 d:\codeblocks-ep\sdk\koolplot\include\plotstream.h
+1120726162 d:\proyectomarket\marketrepo2\marketrepo2\market\libraries\sdk\koolplot\include\plotstream.h
 	<graphics.h>
 	"PlotData.h"
 
-1266094214 d:\codeblocks-ep\sdk\winbgim\include\graphics.h
+1266094214 d:\proyectomarket\marketrepo2\marketrepo2\market\libraries\sdk\winbgim\include\graphics.h
 	<windows.h>
 	<limits.h>
 	<sstream>
 
-1266525576 d:\codeblocks-ep\sdk\koolplot\include\plotdata.h
+1266525576 d:\proyectomarket\marketrepo2\marketrepo2\market\libraries\sdk\koolplot\include\plotdata.h
 	<cmath>
 	<vector>
 	<iostream>
-
-1483567668 source:d:\codeblocks\proyectos\market\src\consumer.cpp
-	"Consumer.h"
-
-1491081110 d:\codeblocks\proyectos\market\include\consumer.h
-
-1483567668 source:d:\proyectomarket\market\src\consumer.cpp
-	"Consumer.h"
-
-1491081110 d:\proyectomarket\market\include\consumer.h
-
-1475382256 source:d:\proyectomarket\market\src\factory.cpp
-	"Factory.h"
-	"Market.h"
-	"Scene.h"
-	<assert.h>
-	<iostream>
-	<sstream>
-
-1475382084 d:\proyectomarket\market\include\factory.h
-	<vector>
-	"Defines.h"
-	"Owner.h"
-	<fstream>
-
-1474825882 d:\proyectomarket\market\include\defines.h
-	<string>
-
-1494699576 d:\proyectomarket\market\include\owner.h
-	"Defines.h"
-	<vector>
-	<string>
-
-1495305058 d:\proyectomarket\market\include\market.h
-	<vector>
-	"Defines.h"
-	"Owner.h"
-	<iostream>
-	<fstream>
-
-1482428360 d:\proyectomarket\market\include\scene.h
-	"Defines.h"
-	<vector>
-
-1495305718 source:d:\proyectomarket\market\src\market.cpp
-	"Market.h"
-	"Scene.h"
-	<iostream>
-	<assert.h>
-	<iomanip>
-	<math.h>
-	<sstream>
-
-1482515892 source:d:\proyectomarket\market\src\owner.cpp
-	"Owner.h"
-	"Market.h"
-	<assert.h>
-	<sstream>
-	<math.h>
-
-1475433000 source:d:\proyectomarket\market\src\person.cpp
-	"Person.h"
-	"Factory.h"
-	"Market.h"
-	"Scene.h"
-	<algorithm>
-	<string>
-	<sstream>
-	<assert.h>
-	<cstdlib>
-
-1475423660 d:\proyectomarket\market\include\person.h
-	"Defines.h"
-	"Owner.h"
-	<vector>
-	<iostream>
-	<fstream>
-
-1495305896 source:d:\proyectomarket\market\src\scene.cpp
-	"Scene.h"
-	"Market.h"
-	"Factory.h"
-	"Person.h"
-	<iostream>
-
-1494696414 source:d:\proyectomarket\market\main.cpp
-	<iostream>
-	"Scene.h"
-	"Market.h"
-	"Factory.h"
-	"graphics.h"
 
