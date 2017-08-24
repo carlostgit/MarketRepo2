@@ -16,15 +16,17 @@
 					<Add directory="include" />
 					<Add directory="..\externalLibraries\sdk\boost\include" />
 					<Add directory="..\externalLibraries\sdk\dx\include" />
-					<Add directory="..\externalLibraries\sdk\fltk\include" />
-					<Add directory="..\externalLibraries\sdk\glut\include" />
-					<Add directory="..\externalLibraries\sdk\grx\include" />
-					<Add directory="..\externalLibraries\sdk\koolplot\include" />
-					<Add directory="..\externalLibraries\sdk\sdl\include" />
-					<Add directory="..\externalLibraries\sdk\sqlite\include" />
-					<Add directory="..\externalLibraries\sdk\tinyxml\include" />
-					<Add directory="..\externalLibraries\sdk\winbgim\include" />
-					<Add directory="..\externalLibraries\sdk\wx\include" />
+					<Add directory="externalLibraries\sdk\boost\include" />
+					<Add directory="externalLibraries\sdk\dx\include" />
+					<Add directory="externalLibraries\sdk\fltk\include" />
+					<Add directory="externalLibraries\sdk\glut\include" />
+					<Add directory="externalLibraries\sdk\grx\include" />
+					<Add directory="externalLibraries\sdk\koolplot\include" />
+					<Add directory="externalLibraries\sdk\sdl\include" />
+					<Add directory="externalLibraries\sdk\sqlite\include" />
+					<Add directory="externalLibraries\sdk\tinyxml\include" />
+					<Add directory="externalLibraries\sdk\winbgim\include" />
+					<Add directory="externalLibraries\sdk\wx\include" />
 				</Compiler>
 				<Linker>
 					<Add library="libkoolplot" />
@@ -34,18 +36,17 @@
 					<Add library="uuid" />
 					<Add library="oleaut32" />
 					<Add library="ole32" />
-					<Add directory="..\externalLibraries\sdk\boost\lib" />
-					<Add directory="..\externalLibraries\sdk\dx\lib" />
-					<Add directory="..\externalLibraries\sdk\fltk\lib" />
-					<Add directory="..\externalLibraries\sdk\glut\lib" />
-					<Add directory="..\externalLibraries\sdk\grx\lib" />
-					<Add directory="..\externalLibraries\sdk\koolplot\lib" />
-					<Add directory="..\externalLibraries\sdk\sdl\lib" />
-					<Add directory="..\externalLibraries\sdk\sqlite\lib" />
-					<Add directory="..\externalLibraries\sdk\tinyxml\lib" />
-					<Add directory="..\externalLibraries\sdk\winbgim\lib" />
-					<Add directory="..\externalLibraries\sdk\wx\lib" />
-				</Linker>
+					<Add directory="externalLibraries\sdk\boost\include" />
+					<Add directory="externalLibraries\sdk\dx\include" />
+					<Add directory="externalLibraries\sdk\fltk\include" />
+					<Add directory="externalLibraries\sdk\glut\include" />
+					<Add directory="externalLibraries\sdk\grx\include" />
+					<Add directory="externalLibraries\sdk\koolplot\include" />
+					<Add directory="externalLibraries\sdk\sdl\include" />
+					<Add directory="externalLibraries\sdk\sqlite\include" />
+					<Add directory="externalLibraries\sdk\tinyxml\include" />
+					<Add directory="externalLibraries\sdk\winbgim\include" />
+					<Add directory="externalLibraries\sdk\wx\include" />				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin\Release\Market" prefix_auto="1" extension_auto="1" />
@@ -55,18 +56,17 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="include" />
-					<Add directory="..\externalLibraries\sdk\boost\include" />
-					<Add directory="..\externalLibraries\sdk\dx\include" />
-					<Add directory="..\externalLibraries\sdk\fltk\include" />
-					<Add directory="..\externalLibraries\sdk\glut\include" />
-					<Add directory="..\externalLibraries\sdk\grx\include" />
-					<Add directory="..\externalLibraries\sdk\koolplot\include" />
-					<Add directory="..\externalLibraries\sdk\sdl\include" />
-					<Add directory="..\externalLibraries\sdk\sqlite\include" />
-					<Add directory="..\externalLibraries\sdk\tinyxml\include" />
-					<Add directory="..\externalLibraries\sdk\winbgim\include" />
-					<Add directory="..\externalLibraries\sdk\wx\include" />
-				</Compiler>
+					<Add directory="externalLibraries\sdk\boost\include" />
+					<Add directory="externalLibraries\sdk\dx\include" />
+					<Add directory="externalLibraries\sdk\fltk\include" />
+					<Add directory="externalLibraries\sdk\glut\include" />
+					<Add directory="externalLibraries\sdk\grx\include" />
+					<Add directory="externalLibraries\sdk\koolplot\include" />
+					<Add directory="externalLibraries\sdk\sdl\include" />
+					<Add directory="externalLibraries\sdk\sqlite\include" />
+					<Add directory="externalLibraries\sdk\tinyxml\include" />
+					<Add directory="externalLibraries\sdk\winbgim\include" />
+					<Add directory="externalLibraries\sdk\wx\include" />				</Compiler>
 				<Linker>
 					<Add option="-s" />
 					<Add library="libkoolplot" />
@@ -76,18 +76,17 @@
 					<Add library="uuid" />
 					<Add library="oleaut32" />
 					<Add library="ole32" />
-					<Add directory="..\externalLibraries\sdk\boost\lib" />
-					<Add directory="..\externalLibraries\sdk\dx\lib" />
-					<Add directory="..\externalLibraries\sdk\fltk\lib" />
-					<Add directory="..\externalLibraries\sdk\glut\lib" />
-					<Add directory="..\externalLibraries\sdk\grx\lib" />
-					<Add directory="..\externalLibraries\sdk\koolplot\lib" />
-					<Add directory="..\externalLibraries\sdk\sdl\lib" />
-					<Add directory="..\externalLibraries\sdk\sqlite\lib" />
-					<Add directory="..\externalLibraries\sdk\tinyxml\lib" />
-					<Add directory="..\externalLibraries\sdk\winbgim\lib" />
-					<Add directory="..\externalLibraries\sdk\wx\lib" />
-				</Linker>
+					<Add directory="externalLibraries\sdk\boost\include" />
+					<Add directory="externalLibraries\sdk\dx\include" />
+					<Add directory="externalLibraries\sdk\fltk\include" />
+					<Add directory="externalLibraries\sdk\glut\include" />
+					<Add directory="externalLibraries\sdk\grx\include" />
+					<Add directory="externalLibraries\sdk\koolplot\include" />
+					<Add directory="externalLibraries\sdk\sdl\include" />
+					<Add directory="externalLibraries\sdk\sqlite\include" />
+					<Add directory="externalLibraries\sdk\tinyxml\include" />
+					<Add directory="externalLibraries\sdk\winbgim\include" />
+					<Add directory="externalLibraries\sdk\wx\include" />				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
